@@ -1,0 +1,37 @@
+#mobile__list{
+    width: 55%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #00bdcad4;;
+    position: fixed;
+    display: none;
+    z-index: 100;
+}
+.active{
+    display: block !important;
+}
+.mobile__list__button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    position: relative;
+    top: 25px;
+    left: 160px;
+    color: #FFF;
+    font-size: 30px;
+}
+.mobile__list__nav{
+    &__ul{
+        list-style: none;
+        margin-top: 30px;
+        &__item{
+            padding: 5px 0px;
+            &__link{
+                text-decoration: none;
+                color: #FFF;
+                font-family: $fonte-base;
+            }
+        }
+    }
+}
